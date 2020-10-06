@@ -1,0 +1,35 @@
+.form-group
+{
+  margin-bottom:20px;
+}
+legend
+{
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.label-form
+{
+  font-weight: bold;
+}
+#submit-notify{
+  border-radius: 30px;
+  width: 150px;
+
+}
+.div-submit
+{
+  margin-bottom: 10px;
+}
+.is-invalid input, .is-invalid textarea
+{
+  border-color: #dc3545;
+}
+.is-invalid input:focus, .is-invalid textarea:focus
+{
+    border-color:#dc3545;
+    box-shadow:0 0 0 .2rem rgba(220,53,69,.25);
+}
+.invalid-feedback {
+  text-align: center;
+}

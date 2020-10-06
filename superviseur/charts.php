@@ -1,0 +1,9 @@
+<?php
+require('session.php');
+require('Model/Model.php');
+$user=$_SESSION['superviseur'];
+$DemandeNonConfirm=DemandeNonConfirm($user);
+$DemandeConfirm=DemandeConfirm($user);
+$StatEntreprise=StatEntreprise($user);
+$StatPersonne=StatPersonne($user);
+require('View/chartsView.php');

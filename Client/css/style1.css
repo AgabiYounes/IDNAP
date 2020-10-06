@@ -1,0 +1,395 @@
+
+
+.bouton, .bouton:active, .bouton::after, .bouton:checked, .bouton:disabled, .bouton:default, .bouton:enabled
+{
+  outline-style: none;
+  border-radius: 80px;
+  background-image:linear-gradient(60deg,#71DA98,#56C5ED);
+  padding: 15px 16px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  color: white;
+  border: 0px;
+  width: 300px;
+  cursor: pointer;
+}
+.bouton:hover
+{
+
+  background-image:linear-gradient(60deg,#78da71,#56a9ed);
+
+
+}
+.bouton:active
+{
+  background-image:linear-gradient(60deg,#4fd345,#3c96e0);
+  box-shadow: 1px 1px 12px #18ea96;
+}
+.boutons
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#apropos, .retour
+{
+    outline-style: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 19px;
+    color: #71DA98;
+    font-weight: bold;
+}
+.retour:active, .retour:hover, .retour:after
+{
+  outline-style: none;
+  border: 0px;
+}
+
+#submit
+{
+  width: 250px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+.partie
+{
+  color:#3c96e0;
+}
+
+#profil1
+{
+  box-shadow: 1px 1px 12px #1993ea;
+}
+#profil2
+{
+  box-shadow: 1px 1px 12px #18c3ea;
+}
+#profil3
+{
+  box-shadow: 1px 1px 12px #17eaca;
+}
+#profil4
+{
+  box-shadow: 1px 1px 12px #16ea6e;
+}
+#profil5
+{
+  box-shadow: 1px 1px 12px #39ea16;
+}
+#profil6
+{
+  box-shadow: 1px 1px 12px #b5db0d;
+}
+.rounded
+{
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+.equipe_nom
+{
+  font-weight: 800;
+  font-size: 17px;
+}
+#equipe
+{font-size: 35px;
+  margin-top: 50px;
+  font-weight: bolder;
+
+}
+.bas
+{
+  margin-top: 30px;
+}
+
+#equipe_coul
+{
+  color: #1993ea;
+}
+.search-form input{
+  background-color: transparent;
+  border: 0px;
+  width: 150px;
+  height: 30px;
+  color: black;
+}
+.search-form button, .search-form button:active
+{
+
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  height: 30px;
+}
+.fa-search
+  {
+    color: black;
+    font-size: 30px;
+    background-color: transparent;
+  }
+.search-form
+{
+  margin-top: 40px;
+  border-radius: 50px;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin-left: 148px;
+
+
+}
+.tableau{
+    background: rgba(0, 0, 0, 0.6);
+    
+
+}
+#header-tab
+{
+  margin-bottom: 40px;
+}
+#resultat-titre
+{
+  margin-top: 20px;
+  margin-right: 145px;
+  font-size: 50px;
+  font-weight: 800;
+}
+#bouton-stats
+{
+  margin-top: 40px;
+}
+.checked-ico
+{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.msg-redirct
+{
+  font-size: 20px;
+  font-weight:700;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#incresult
+{
+  margin-top: 25px;
+}
+#mycanvas
+{
+  background-color: #353E4F;
+}
+
+
+header
+{
+  font-weight: bold;
+  font-size: 18px;
+}
+ .navbar-collapse
+{
+  background: rgba(0, 0, 0, 0.4);
+  height: 55px;
+  border-radius: 70px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 15px;
+}
+.mobile-con{
+  visibility: hidden;
+}
+.notmob{
+
+}
+@media (max-width: 576px) {
+  * {
+ /*CSS transitions*/
+ -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+ /*CSS transforms*/
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+ /*CSS animations*/
+ -webkit-animation: none !important;
+ -moz-animation: none !important;
+ -o-animation: none !important;
+ -ms-animation: none !important;
+ animation: none !important;
+ }
+
+}
+
+#link-home
+{
+  margin-left: 25px;
+}
+.nav-item
+{
+  padding-left: 40px;
+}
+.btn-inscribe, .btn-login
+{
+  margin-right: 30px;
+  font-weight: bold;
+  width: 140px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px #555;
+
+}
+
+/*Logo Animations*/
+#logo
+{
+-moz-transition-duration:0.7s;
+-moz-transition-timing-function:ease;
+-webkit-transition-duration:0.7s;
+-webkit-transition-timing-function:ease;
+transition-duration:0.7s;
+transition-timing-function:ease;
+z-index: 2;
+position: absolute;
+top: 10px;
+left: 30px;
+height: 120px;
+width: auto;
+
+}
+
+
+body
+{
+  background-image:url(../img/img-bg.jpg);
+  background-repeat : no-repeat;
+  background-position : fixed;
+  background-attachment : fixed;
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+#logo:hover {
+-moz-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+transform:rotate(360deg);
+}
+*
+{
+  background-image:-moz-linear-gradient(left, white, black);
+  color: Black;
+  color: #9faab7;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.bouton, .bouton:active, .bouton::after, .bouton:checked, .bouton:disabled, .bouton:default, .bouton:enabled
+{
+  outline-style: none;
+  border-radius: 80px;
+  background-image:linear-gradient(60deg,#71DA98,#56C5ED);
+  padding: 15px 16px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  color: white;
+  border: 0px;
+  width: 300px;
+  cursor: pointer;
+}
+.bouton:hover
+{
+
+  background-image:linear-gradient(60deg,#78da71,#56a9ed);
+
+
+}
+.MsgContainer{
+  position: absolute;
+top: 22%;
+left: 10%;
+right: 10%;
+width: auto;
+background-color: inherit;
+}
+.bouton:active
+{
+  background-image:linear-gradient(60deg,#4fd345,#3c96e0);
+  box-shadow: 1px 1px 12px #18ea96;
+}
+.boutons
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.retour:active, .retour:hover, .retour:after
+{
+  outline-style: none;
+  border: 0px;
+}
+#nom, #prenom, #email, #matricule, #submit{ border-radius: 50px; width: 400px; padding: 10px; margin: 25px;}
+{
+  width: 250px;
+
+}
+#submit
+{
+  width: 250px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.rounded
+{
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+.equipe_nom
+{
+  font-weight: 800;
+  font-size: 17px;
+}
+#equipe
+{font-size: 35px;
+  margin-top: 50px;
+  font-weight: bolder;
+
+}
+.bas
+{
+  margin-top: 30px;
+}
+footer{
+  margin-top: 24px;
+
+}
+#equipe_coul
+{
+  color: #1993ea;
+}
+
+#header-tab
+{
+  margin-bottom: 40px;
+}
+

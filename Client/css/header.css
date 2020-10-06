@@ -1,0 +1,194 @@
+
+/*Animations menu*/
+
+/*Menu items*/
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+/* Buttons animations */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*Logo Animations*/
+#logo
+{
+-moz-transition-duration:0.7s;
+-moz-transition-timing-function:ease;
+-webkit-transition-duration:0.7s;
+-webkit-transition-timing-function:ease;
+transition-duration:0.7s;
+transition-timing-function:ease;
+z-index: 2;
+position: absolute;
+top: 10px;
+left: 30px;
+height: 120px;
+width: auto;
+
+}
+
+#logo:hover {
+-moz-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+transform:rotate(360deg);
+}
+ /************************** les buttons d'accueil client*******************/
+.button-fct {
+  border-radius: 4px;
+  background-color: inherit;
+  border-color: #4169E1;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 20px;
+}
+.goldbg{
+  background-color: #FFD700;
+  color: #000000;
+}
+
+.button-fct span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  background: transparent;
+}
+
+.button-fct span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-fct:hover span {
+  padding-right: 25px;
+}
+
+.button-fct:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ 
+ .modal-content{
+  color: #000000;
+ }
+
+#link-home
+{
+  margin-left: 25px;
+}
+.nav-item
+{
+  padding-left: 40px;
+}
+.btn-inscribe, .btn-login
+{
+  margin-right: 30px;
+  font-weight: bold;
+  width: 140px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px #555;
+header
+{
+  font-weight: bold;
+  font-size: 18px;
+}
+ .navbar-collapse
+{
+  background: rgba(0, 0, 0, 0.4);
+  height: 55px;
+  border-radius: 70px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 15px;
+}
