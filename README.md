@@ -5,7 +5,7 @@
 ## Features
 **IDNAP** application offers the following features:
 
-###Administrator :
+### Administrator :
 
 - View the number of confirmed applications at the national level.
 
@@ -34,7 +34,7 @@
 
 ![IDNAP Structure](/Screens/Screen5.png)
 
-###Wilaya Supervisor
+### Wilaya Supervisor
 
 
 - Consult the total number of registration requests at the wilaya level.
@@ -57,7 +57,7 @@
 
 - Notify the clients registered at the wilaya level.
 
-###Post Office
+### Post Office
 
 - View the number of registration requests awaiting confirmation at the PO level.
 
